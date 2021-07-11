@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppCMUP</string>
+    <string name="tab_text_1">Main Menu</string>
+    <string name="tab_text_2">Matches</string>
+</resources>
