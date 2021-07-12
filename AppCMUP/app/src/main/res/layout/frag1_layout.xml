@@ -71,10 +71,10 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="#728a74"
                     android:drawableTop="@drawable/restaurant"
                     android:text="Restaurant"
                     android:textColor="#fff"
-                    android:backgroundTint="#728a74"
                     android:textSize="12sp" />
             </LinearLayout>
 
@@ -89,12 +89,13 @@
 
 
                 <Button
+                    android:id="@+id/perfil_button"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="#cb707f"
                     android:drawableTop="@drawable/people"
                     android:text="Perfil"
                     android:textColor="#fff"
-                    android:backgroundTint="#cb707f"
                     android:textSize="12sp" />
 
             </LinearLayout>
@@ -121,10 +122,10 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="#a180a4"
                     android:drawableTop="@drawable/settings"
                     android:text="Settings"
                     android:textColor="#fff"
-                    android:backgroundTint="#a180a4"
                     android:textSize="12sp" />
             </LinearLayout>
 
@@ -141,10 +142,10 @@
                     android:id="@+id/btnlogout"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="#8eb9b9"
                     android:drawableTop="@drawable/logout"
                     android:text="Logout"
                     android:textColor="#fff"
-                    android:backgroundTint="#8eb9b9"
                     android:textSize="12sp" />
 
             </LinearLayout>

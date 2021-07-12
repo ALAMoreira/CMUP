@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,10 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCMUP.NoActionBar">
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity android:name=".ui.main.User_screen" />
         <activity android:name=".ui.main.Login_screen" />
         <activity android:name=".ui.main.Register_screen" />
+        <activity android:name=".ui.main.rating_screen" />
         <activity android:name=".ui.main.Splash_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
