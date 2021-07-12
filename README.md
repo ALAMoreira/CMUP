@@ -11,7 +11,7 @@ No final da refeição o utilizador poderia avaliar a experiência, podendo ent�
 ## Linguagens de programação utilizadas
 
 * Python
-* Kotlin
+* Java
 
 ## Construido com recurso a
 
