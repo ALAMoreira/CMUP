@@ -42,11 +42,13 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-            <ImageView
-                android:layout_width="95dp"
-                android:layout_height="wrap_content"
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_galery"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
                 android:layout_centerInParent="true"
-                android:src="@drawable/ic_launcher_background" />
+                android:src="@mipmap/splash_image_foreground" />
+
         </RelativeLayout>
 
         <LinearLayout
@@ -64,25 +66,15 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#728a74"
-                android:orientation="vertical"
-                android:weightSum="3">
+                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="0dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="8dp"
-                    android:layout_weight="1.5"
-                    android:src="@drawable/restaurant" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/restaurant"
                     android:text="Restaurant"
                     android:textColor="#fff"
+                    android:backgroundTint="#728a74"
                     android:textSize="12sp" />
             </LinearLayout>
 
@@ -93,25 +85,18 @@
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
                 android:background="#cb707f"
-                android:orientation="vertical"
-                android:weightSum="3">
+                android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="0dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="8dp"
-                    android:layout_weight="1.5"
-                    android:src="@drawable/people" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/people"
                     android:text="Perfil"
+                    android:textColor="#fff"
+                    android:backgroundTint="#cb707f"
                     android:textSize="12sp" />
+
             </LinearLayout>
         </LinearLayout>
 
@@ -133,22 +118,13 @@
                 android:orientation="vertical"
                 android:weightSum="3">
 
-                <ImageView
-                    android:layout_width="25dp"
-                    android:layout_height="0dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="8dp"
-                    android:layout_weight="1.5"
-                    android:src="@drawable/settings" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableTop="@drawable/settings"
                     android:text="Settings"
                     android:textColor="#fff"
+                    android:backgroundTint="#a180a4"
                     android:textSize="12sp" />
             </LinearLayout>
 
@@ -166,10 +142,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:drawableTop="@drawable/logout"
-                    android:background="#8eb9b9"
                     android:text="Logout"
                     android:textColor="#fff"
-                    android:textSize="12sp"/>
+                    android:backgroundTint="#8eb9b9"
+                    android:textSize="12sp" />
 
             </LinearLayout>
         </LinearLayout>

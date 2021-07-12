@@ -122,22 +122,6 @@ public class Register_screen extends AppCompatActivity {
 
     }
 
-    protected void onStart() {
-        super.onStart();
-        firebaseAuth.addAuthStateListener(firebaseAuthStateListener);
-    }
-
-    protected void onStop() {
-        super.onStop();
-        firebaseAuth.removeAuthStateListener(firebaseAuthStateListener);
-    }
-
-    public void onBackPressed() {
-        Intent i = new Intent(Register_screen.this, User_screen.class);
-        startActivity(i);
-        finish();
-    }
-
     private boolean checkInputs(String email, String name, String password) {
         if (email.equals("") || name.equals("") || password.equals("")) {
             Toast.makeText(this, "Fill this", Toast.LENGTH_SHORT).show();
