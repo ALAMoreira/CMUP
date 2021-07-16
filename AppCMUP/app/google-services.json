@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "497657352241",
+    "firebase_url": "https://thedinningexperience-default-rtdb.firebaseio.com",
+    "project_id": "thedinningexperience",
+    "storage_bucket": "thedinningexperience.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497657352241:android:631cc7c9163309f36e8510",
+        "android_client_info": {
+          "package_name": "com.example.appcmup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497657352241-4868c7pefm38omimk4o2t4n2sj3eu1jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtnOA1trAbUwv8MvZ6X0sPRy6dD4VNjtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497657352241-4868c7pefm38omimk4o2t4n2sj3eu1jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
